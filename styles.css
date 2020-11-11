@@ -1,0 +1,52 @@
+body{
+  margin: 0;
+  text-align: center;
+  background-color: #39311d;
+  font-family: 'Permanent Marker', cursive;
+  color: #e8e8e8;
+}
+
+p{
+  text-align: left;
+  line-height: 4;
+}
+
+.info{
+  font-size: 16px;
+  margin: 20% auto auto 5%;
+  text-align: center;
+  width: 20%;
+}
+
+.hornet{
+  padding: 5%;
+  width: 85%;
+  margin: 0 auto;
+  background-image: url(Grub.png), url(dash.png), url(hornet.png), url(background.png);
+  background-size: 5%, 10%, 13%, contain;
+  background-repeat: no-repeat;
+  background-position: left 93% top 29%, left 10% top 26%, center, center;
+  background-attachment: scroll, scroll, fixed, scroll;
+}
+
+.knight{
+  padding: 5%;
+  width: 85%;
+  margin: 0 auto;
+  background-image: url(Xero.png), url(grubfather.png), url(knight.png), url(weaver.png);
+  background-size: 22%, 5%, 8%, contain;
+  background-repeat: no-repeat;
+  background-position: left 72% top 32%, left 32% top 13%, center, center;
+  background-attachment: fixed, scroll, fixed, scroll;
+}
+
+.shade{
+  padding: 5%;
+  width: 85%;
+  margin: 0 auto;
+  background-image: url(shade2.png), url(oblobble.png), url(knight.png), url(edge.png);
+  background-size: 8%, 5%, 8%, contain;
+  background-repeat: no-repeat, repeat-x, no-repeat, no-repeat;
+  background-position: left 65% top 35%, left 32% top 30%, center, center;
+  background-attachment: fixed, scroll, fixed, scroll;
+}
